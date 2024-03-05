@@ -1,0 +1,18 @@
+.navbar {
+  background-color: var(--white-color);
+  padding: 1.5rem 2rem;
+  /* flex-flow: row wrap; */
+  align-items: stretch;
+}
+
+.navbar-links {
+  gap: 2rem;
+  color: #0f1629;
+  font-weight: 600;
+}
+
+.navbar-links-left {
+  gap: 2rem;
+  justify-content: center;
+    align-items: center;
+}

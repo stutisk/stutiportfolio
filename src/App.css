@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -5,4 +6,17 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 10px; 
+}
+
+.grid-container > *:nth-child(1), .grid-container > *:nth-child(2) {
+  grid-column: span 1; 
+}
+
+.grid-container > *:nth-child(3) {
+  grid-column: span 2; 
 }
