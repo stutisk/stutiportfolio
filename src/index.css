@@ -1,6 +1,8 @@
 :root{
-  --background-color: #D3E0E6;
+  --background-color: #EFF3F4;
+  
   --white-color: #FFFFFF;
+  --border-color: #DEDFE2
 
 }
 body {
@@ -26,4 +28,15 @@ code {
 }
 .cursor{
   cursor: pointer;
+}
+
+.flex-column{
+  flex-direction: column;
+}
+.gap1{
+  gap: 9px;
+}
+
+.gap2{
+  gap:2rem
 }

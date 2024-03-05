@@ -2,7 +2,7 @@ import "./Navbar.css";
 import { Button } from "../index";
 export const Navbar = () => {
   return (
-    <div className="navbar flex flex-space-between">
+    <nav className="navbar flex flex-space-between">
       <div>logo</div>
 
       <div className="flex navbar-links flex-space-between">
@@ -15,6 +15,6 @@ export const Navbar = () => {
       <Button/>
       
       </div>
-    </div>
+    </nav>
   );
 };

@@ -7,3 +7,10 @@ export const Button = () => {
         </button>
     )
 }
+
+// {trendingCoins.map((coins) => (
+           
+                
+//     <div>{coins.item.symbol}bgsrt</div>
+
+// ))}

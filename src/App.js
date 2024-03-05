@@ -1,5 +1,6 @@
 import "./App.css";
-import { Navbar } from "./Components/Navbar/Navbar";
+import { Navbar,TrendingComponents } from "./Components/index"
+
 
 function App() {
   return (
@@ -7,7 +8,9 @@ function App() {
       <Navbar />
       <div className="grid-container">
         <div class="grid-item item1">Item 1</div>
-        <div class="grid-item item2">Item 2</div>
+        <div class="grid-item item2">
+          <TrendingComponents/>
+        </div>
         <div class="grid-item item3">Item 3</div>
       </div>
     </div>
