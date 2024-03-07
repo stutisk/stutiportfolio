@@ -1,4 +1,4 @@
-import { Tokenomics } from "../../Tokenomics/Tokenomics";
+import { Tokenomics } from "../Tokenomics/Tokenomics";
 import { About } from "../About/About";
 import { Performance } from "../Performance/Performance";
 import { Sentiment } from "../Sentiment/Sentiment";

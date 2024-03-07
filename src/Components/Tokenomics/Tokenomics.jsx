@@ -1,4 +1,4 @@
-import Tokeno from "../assests/Tokenomics.svg";
+import Tokeno from "../../assests/Tokenomics.svg";
 export const Tokenomics = () => {
   return (
     <section className="trending-coins">

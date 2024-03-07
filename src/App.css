@@ -11,8 +11,8 @@
   display: grid;
   grid-template-columns: 3fr 1fr;
   gap: 10px; 
-padding-top: 2rem;
-  margin-top: 6rem;
+/* padding-top: 2rem; */
+  margin-top: 2rem;
 }
 
 .grid-container > *:nth-child(1), .grid-container > *:nth-child(2) {
@@ -62,7 +62,13 @@ color:var(--text-color3);
 .mt0{
   margin-top: 0px;
 }
+.mt6{
+  margin-top: 6rem;
+}
 .width45{
   width: 45%;
 }
 
+.main-content{
+  margin-left: 3rem;
+}
