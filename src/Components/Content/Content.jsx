@@ -3,22 +3,43 @@ import { About } from "../About/About";
 import { Performance } from "../Performance/Performance";
 import { Sentiment } from "../Sentiment/Sentiment";
 import { Team } from "../Team/Team";
+import { useState } from "react";
 import "./Content.css";
 export const Content = () => {
+  const [activeButton, setActiveButton] = useState("Overview");
+
+  const handleClick = (buttonName) => {
+    setActiveButton(buttonName);
+  };
+
+  const buttons = [
+    "Overview",
+    "Fundamentals",
+    "News Insights",
+    "Sentiments",
+    "Team",
+    "Technicals",
+    "Tokenomics",
+  ];
+
   return (
     <section className="flex flex-column gap2">
       <div className="content-section">
-        <button className="no-background-or-border">Overview</button>
-        <button className="no-background-or-border">Fundamentals</button>
-        <button className="no-background-or-border">News Insights</button>
-        <button className="no-background-or-border">Sentiments</button>
-        <button className="no-background-or-border">Team</button>
-        <button className="no-background-or-border">Technicals</button>
-        <button className="no-background-or-border">Tokenomics</button>
+        {buttons.map((buttonName) => (
+          <button
+            key={buttonName}
+            className={`no-background-or-border ${
+              activeButton === buttonName ? "active-button" : ""
+            }`}
+            onClick={() => handleClick(buttonName)}
+          >
+            {buttonName}
+          </button>
+        ))}
       </div>
-     <Performance/>
-      <Sentiment/>
-      <About/>
+      <Performance />
+      <Sentiment />
+      <About />
       <Tokenomics />
       <Team />
     </section>

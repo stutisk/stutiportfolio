@@ -26,5 +26,23 @@
     align-items: center;
 
     width: 100%;
+    /* position: relative; */
 
+}
+
+.arrow-card{
+  border-radius: 50%;
+  border: 1px solid black;
+background-color: var(--white-color);
+}
+.arrow-right-card{
+  position: relative;
+  right: 1.5%;
+
+
+
+}
+.arrow-left-card{
+  position: relative;
+  left: 1.5%;
 }
