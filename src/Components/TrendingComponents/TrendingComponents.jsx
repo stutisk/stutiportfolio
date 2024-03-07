@@ -5,7 +5,7 @@ import Arrow from "../../assests/Arrow.svg";
 import Image from "../../assests/img1.svg";
 export const TrendingComponents = () => {
   const { trendingCoins } = useTrendingCoin();
-  console.log(trendingCoins);
+  // console.log(trendingCoins);
   return (
     <div className="flex flex-column gap2">
       <figure>

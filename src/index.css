@@ -1,14 +1,17 @@
-:root{
-  --background-color: #EFF3F4;
-  
-  --white-color: #FFFFFF;
-  --border-color: #DEDFE2
-
+:root {
+  --background-color: #eff3f4;
+  --background-color2: #6A7686;
+  --white-color: #ffffff;
+  --border-color: #dedfe2;
+  --border-color2:#808A9D;
+  --text-color:#5D667B;
+  --text-color2:#768396
+ 
 }
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -16,27 +19,39 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-.flex{
-  display: flex
+.flex {
+  display: flex;
 }
-.flex-space-between{
+.flex-space-between {
   justify-content: space-between;
 }
-.cursor{
+.cursor {
   cursor: pointer;
 }
 
-.flex-column{
+.flex-column {
   flex-direction: column;
 }
-.gap1{
+.gap1 {
   gap: 9px;
 }
 
-.gap2{
-  gap:2rem
+.gap2 {
+  gap: 2rem;
+}
+.font-weight600{
+  font-weight: 600;
+}
+.font-size1{
+  font-size: 16px;
+}
+.font-size2{
+  font-size: 28px;
+}
+.margin0{
+  margin: 0;
 }

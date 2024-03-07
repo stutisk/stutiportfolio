@@ -1,0 +1,30 @@
+.main-section {
+  background-color: var(--white-color);
+  text-align: left;
+  background-color: var(--white-color);
+
+  padding: 2.5rem;
+  text-align: left;
+  line-height: 40px;
+}
+.card {
+  border: 1px solid #e3e3e3;
+  width: 270px;
+    border-radius: 10px;
+    height: 160px;
+    width: calc(20% - 10px);
+    flex: 0 0 auto;
+
+    
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.card-container{
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+
+}

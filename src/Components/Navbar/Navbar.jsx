@@ -1,9 +1,14 @@
 import "./Navbar.css";
 import { Button } from "../index";
+import logo from "../../assests/logo.svg"
 export const Navbar = () => {
   return (
     <nav className="navbar flex flex-space-between">
-      <div>logo</div>
+      <div>
+      <figure>
+        <img src={logo}  alt="logo" />
+      </figure>
+      </div>
 
       <div className="flex navbar-links flex-space-between">
        

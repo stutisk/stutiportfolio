@@ -1,0 +1,14 @@
+.bitcoin-price {
+  text-align: left;
+}
+
+.btc {
+  color: var(--text-color);
+}
+.rank {
+background-color:var(--background-color2);
+color:var(--white-color);
+border: 1px solid var(--border-color2);
+padding: 1px 8px;
+border-radius: 8px;
+}
