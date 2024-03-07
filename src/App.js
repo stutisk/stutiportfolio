@@ -1,5 +1,6 @@
 import "./App.css";
 import { BitcoinPrice } from "./Components/BitcoinPrice/BitcoinPrice";
+import { Content } from "./Components/Content/Content";
 import { Navbar,TrendingComponents } from "./Components/index"
 import { YouMayLike } from "./Components/YouMayLike/YouMayLike";
 
@@ -13,6 +14,7 @@ function App() {
         <div class="grid-item item1">
 
           <BitcoinPrice/>
+          <Content/>
          
         </div>
         <div class="grid-item item2">

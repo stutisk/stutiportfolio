@@ -1,4 +1,4 @@
-import { Graph } from "../Graphs/Graph";
+
 import "./BitcoinPrice.css";
 import "../TrendingComponents/TrendingComponents.css";
 import TradingViewWidget from "../Graphs/TradingViewWidget";

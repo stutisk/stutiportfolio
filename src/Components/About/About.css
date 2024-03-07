@@ -1,0 +1,12 @@
+
+
+.card-about{
+  color:  var(--white-color);
+}
+.about-btn{
+border-radius: 8px;
+padding: 10px 1.5rem;
+border: none;
+background-color: var(--white-color);
+cursor: pointer;
+}
