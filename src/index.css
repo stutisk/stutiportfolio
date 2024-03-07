@@ -55,3 +55,7 @@ code {
 .margin0{
   margin: 0;
 }
+.perfomance{
+  border-bottom: 1px solid #D3E0E6;
+    line-height: 45px;
+}

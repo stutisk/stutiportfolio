@@ -1,5 +1,6 @@
 import { Tokenomics } from "../../Tokenomics/Tokenomics";
 import { About } from "../About/About";
+import { Performance } from "../Performance/Performance";
 import { Sentiment } from "../Sentiment/Sentiment";
 import { Team } from "../Team/Team";
 import "./Content.css";
@@ -15,6 +16,7 @@ export const Content = () => {
         <button className="no-background-or-border">Technicals</button>
         <button className="no-background-or-border">Tokenomics</button>
       </div>
+     <Performance/>
       <Sentiment/>
       <About/>
       <Tokenomics />
