@@ -1,64 +1,68 @@
 :root {
-  --background-color: #eff3f4;
-  --background-color2: #6A7686;
-  --white-color: #ffffff;
-  --border-color: #dedfe2;
-  --border-color2:#808A9D;
-  --text-color:#5D667B;
-  --text-color2:#768396
- --text-color3: #3E424A;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
 
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
 
-
-}
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--background-color);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
 }
 
-.flex {
-  display: flex;
-}
-.flex-space-between {
-  justify-content: space-between;
-}
-.cursor {
-  cursor: pointer;
-}
-
-.flex-column {
-  flex-direction: column;
-}
-.gap1 {
-  gap: 9px;
-}
-
-.gap2 {
-  gap: 2rem;
-}
-.font-weight600{
-  font-weight: 600;
-}
-.font-size1{
-  font-size: 16px;
-}
-.font-size2{
-  font-size: 28px;
-}
-.margin0{
+body {
   margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
 }
-.perfomance{
-  border-bottom: 1px solid #D3E0E6;
-    line-height: 45px;
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
 }
